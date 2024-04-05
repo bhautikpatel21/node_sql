@@ -18,7 +18,7 @@ connection.connect(() => {
 
 app.get('/',(req,res) => {
     res.send('welcome to express.js');
-});
+}); 
 
 app.post('/api/user',(req,res) => {
     const {firstName,lastName,email,password,mobileNo} = req.body;
